@@ -31,8 +31,9 @@ km3=Number(window.prompt("inserisci i km percorsi per la terza destinazione"));
 destinazione4=window.prompt("inserisci la quarta destinazione");
 km4=Number(window.prompt("inserisci i km percorsi per la quarta destinazione"));
 
-media=(km1+km2+km3+km4)/4;
-document.write(La destinazione inserita sono: ",media,"<br>");
+var para= document.createElement("p");
+para.textContent="Le destinazioniinserite sono: "+destinazione1+","+destinazione2+","+destinazione3+","+destinazione4;
+document.doby.appendChild(para);
 </script>
 </body>
 </html>
