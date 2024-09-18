@@ -20,14 +20,20 @@ var destinazione4="";
 var media=0.0;
 
 destinazione1=window.prompt("inserisci la prima destinazione");
-Km1=Number(window.prompt("inserisci i km percorsi per la prima destinazione"));
+km1=Number(window.prompt("inserisci i km percorsi per la prima destinazione"));
 
 destinazione2=window.prompt("inserisci la seconda destinazione");
-Km2=Number(window.prompt("inserisci i km percorsi per la seconda destinazione"));
+km2=Number(window.prompt("inserisci i km percorsi per la seconda destinazione"));
 
 destinazione3=window.prompt("inserisci la terza destinazione");
-Km3=Number(window.prompt("inserisci i km percorsi per la terza destinazione"));
+km3=Number(window.prompt("inserisci i km percorsi per la terza destinazione"));
 
 destinazione4=window.prompt("inserisci la quarta destinazione");
-Km4=Number(window.prompt("inserisci i km percorsi per la quarta destinazione"));
+km4=Number(window.prompt("inserisci i km percorsi per la quarta destinazione"));
+
+media=(km1+km2+km3+km4)/4;
+document.write(La destinazione inserita sono: ",media,"<br>");
+</script>
+</body>
+</html>
 
