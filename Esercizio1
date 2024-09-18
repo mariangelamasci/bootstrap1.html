@@ -11,3 +11,10 @@ var km1=0;
 var km2=0;
 var km3=0;
 var km4=0;
+
+var destinazione1="";
+var destinazione2="";
+var destinazione3="";
+var destinazione4="";
+
+var media=0.0;
