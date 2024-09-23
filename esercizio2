@@ -1,14 +1,22 @@
 <!doctype html>
 <html>
  <head>
-
  <title> Costo  album </title>
-
 </head>
+
 <body bgcolor="lavender">
 <center><h1>prezzo vinili</h1></center>
 <script type="text/javascript"
-var nome="";
 
+var nome="";
+var artista="";
+var quantità=0;
+var costo_unitario=0.0;
+var prezzo=0.0;
+
+nome=(window.pront("inserisci il nome del vinile"));
+artista=window.pront("inserisci il nome dell'artista"));
+quantità=Number(window.pront("inserisci la quantità"));
+costo_unitario=Number(window.pront("inserisci il prezzo del vinile"));
 
 </html>
