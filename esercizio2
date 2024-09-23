@@ -19,4 +19,13 @@ artista=window.pront("inserisci il nome dell'artista"));
 quantità=Number(window.pront("inserisci la quantità"));
 costo_unitario=Number(window.pront("inserisci il prezzo del vinile"));
 
+if(quantità>1)
+ {
+   prezzo=quantità*costo_unitario;
+ }
+else
+{
+  prezzo=costo_unitario;
+}
+
 </html>
