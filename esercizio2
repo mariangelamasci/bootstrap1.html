@@ -27,5 +27,38 @@ else
 {
   prezzo=costo_unitario;
 }
+if(prezzo>100)
+{
+document.write("il vinile",nome,"dell'artista",artista,"è soggetto a uno sconto del 10%");
+}
+else
+{
+  document.write(il vinile",nome,"dell'artista",artista,"non è soggetto a uno sconto del 10%");
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </html>
