@@ -1,1 +1,11 @@
+<!doctype html>
+<html>
+<head>
+  <title>Costo gita</title>
+</head>
+<body bgcolor="yellow">
+<center><h2> prenotazioni online di un museo </H2></center>
 
+<script type="text/javascript">
+
+var nome= " "
