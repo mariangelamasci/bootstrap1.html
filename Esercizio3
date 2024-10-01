@@ -19,3 +19,17 @@ fascia_oraria1=Number(window.prompt("Inserisci la prima fascia oraria"));
 fascia_oraria2=Number(window.prompt("Inserisci la seconda fascia oraria"));
 fascia_oraria3=Number(window.prompt("Inserisci la terza fascia oraria"));
 
+if(totale>80)
+  {
+      document.write( "prenotazione consentita");
+  } 
+else
+   {
+  document.write( "prenotazione non consentita");
+   
+   }
+
+</script>
+</body>
+</html>
+
