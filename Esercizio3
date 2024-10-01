@@ -1,11 +1,19 @@
 <!doctype html>
 <html>
 <head>
-  <title>Costo gita</title>
+  <title>orari museo</title>
 </head>
-<body bgcolor="yellow">
+
 <center><h2> prenotazioni online di un museo </H2></center>
 
 <script type="text/javascript">
 
-var nome= " "
+var data= " "
+var fascia_oraria1=0.0;
+var fascia_oraria2=0.0;
+var fascia_oraria2=0.0;
+
+nome=(window.prompt("Inserisci il nome dello studente"));
+
+eta=Number(window.prompt("Inserisci l'età dello studente"));
+
