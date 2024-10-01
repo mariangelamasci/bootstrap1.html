@@ -13,7 +13,9 @@ var fascia_oraria1=0.0;
 var fascia_oraria2=0.0;
 var fascia_oraria2=0.0;
 
-nome=(window.prompt("Inserisci il nome dello studente"));
+data=(window.prompt("Inserisci inserisci una data"));
 
-eta=Number(window.prompt("Inserisci l'età dello studente"));
+fascia_oraria1=Number(window.prompt("Inserisci la prima fascia oraria"));
+fascia_oraria2=Number(window.prompt("Inserisci la seconda fascia oraria"));
+fascia_oraria3=Number(window.prompt("Inserisci la terza fascia oraria"));
 
