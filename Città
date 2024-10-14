@@ -7,3 +7,22 @@
 <script type="text/javascript">
 var citta= 0.0;
 var abitanti= 0.0;
+
+for (var i=0; i< 1000000; i++)
+{ 
+ctta= parseInt(window.prompt('ilserisci la città'));
+if (citta > 1000000)
+{
+conta_ma++;
+}
+eslse (abitanti < 1000000)
+{
+conta_mi++
+}
+}
+
+document.write("gli abitanti della città non superano i 1000000 abitanti", conta_mi++, "<br>");
+document.write("gli abitanti della città  superano i 1000000 abitanti", conta_ma++, "<br>");
+</script>
+</body>
+</html>
