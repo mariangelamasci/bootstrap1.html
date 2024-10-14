@@ -1,1 +1,9 @@
-
+<doctype html!>
+<html>
+<head>
+<title>città </title>
+</head>
+<body>
+<script type="text/javascript">
+var citta= 0.0;
+var abitanti= 0.0;
