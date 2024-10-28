@@ -1,1 +1,41 @@
+‹! doctype html>
+<html>
+<head>
+
+«title > gestione vettore VETTORE_VENDITE </title> </head>
+<script type="text/javascript">
+var n=0;
+n=Number(window.prompt("da quanti elementi è composto il vettore VETTORE_VENDITE"));
+var VETTORE_VENDITE= new Arrey();
+var i=0;
+var incassi=0;
+var somma=0;
+while (1<n)
+incassi=Number(windw.prompt("inserisci gli incassi ottenuti));
+VETTORE_VENDITE [i]=incassi;
+i++;
+}
+i=0；
+docume.write(" gli incassi inseriti nel vetture sono: ");
+
+while (i<n)
+｛
+  document.write(VETTORE_VENDITE[1]+"-");
+  i++
+}
+i=0
+ while(1<n)
+{ 
+ somma=somma+VETTORE_VENDITE[i];
+i++;
+}
+document write ("<br/>);
+document.write("<br/> la somma degli incassi contenuti nel vettore è di" +somma);
+</script>
+</body>
+</html>
+
+
+
+
 
