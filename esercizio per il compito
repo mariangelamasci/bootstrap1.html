@@ -1,1 +1,40 @@
+<doctype html>
+<html>
+<head> 
+<title> VETTORE auto </title>
+</head>
+<body>
+<script type="text/javascript">
+var=0
+n=Number(window.prompt("inserisci il numero di auto"));
+var VETTORE_AUTO new Arrey ();
 
+var i=0;
+var vendite=0;
+var media=0;
+
+
+while (1<n)
+ { 
+vendite=Number(window.prompt("inserisci un numero di vendite"));
+AUTO[i]=vendite;
+i++
+} 
+i=0;
+document.write(le vendite inserite nel vettore sono: ));
+while (i<n)
+ { 
+document.write(AUTO[i]+" - ");
+i++;
+}
+i=0;
+while (i < n)
+{
+media= media+AUTO+ vendite[i]/n;
+i++;
+}
+document.write("br/")
+document.write("br/> la media delle auto vedute contenute nel vettore è di "+ media);
+</script>
+</body>
+</html>
